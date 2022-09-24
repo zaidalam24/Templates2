@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.nayrathemes.com/demo/html/hantus/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Sep 2022 09:35:12 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="Hantus, Responsive, SPA Template, Bootstrap 4,">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <title>Hantus - Spa and Beauty HTML template</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Start: Preloader
+    ============================= -->
+
+    <div class="preloader">        
+        <div class="wrapper">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-1a"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+        <h1>Loading&hellip;</h1>
+    </div>
+
+    <!-- End: Preloader
+    ============================= -->
+
+    <!-- Start: Coming Soon page
+    ============================= -->
+
+    <div class="coming-soon-wrapper text-center">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo"><a href="#"><img src="assets/img/white-logo.png" alt=""></a></div>
+                    <h1>We are launching <span>soon website</span></h1>
+                    <p>There are many variations of passages of Lorem Ipsum available but the majority ation in some form by injected humour.</p>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="count-area">
+                        <ul data-countdown="2020/01/01 14:21:37" class="timer row">
+                            <!-- Please use event time this format: YYYY/MM/DD hh:mm:ss -->
+                            <li class="col-xs-6 col-sm-3">
+                                <div class="time-wrap">
+                                    <span class="days">0</span>
+                                </div>
+                                <p class="text">days</p>
+                            </li>
+                            <li class="col-xs-6 col-sm-3">
+                                <div class="time-wrap">
+                                    <span class="hours">0</span>
+                                </div>
+                                <p class="text">Hours</p>
+                            </li>
+                            <li class="col-xs-6 col-sm-3">
+                                <div class="time-wrap">
+                                    <span class="minutes">0</span>
+                                </div>
+                                <p class="text">Minutes</p>
+                            </li>
+                            <li class="col-xs-6 col-sm-3">
+                                <div class="time-wrap">
+                                    <span class="seconds">0</span>
+                                </div>
+                                <p class="text">Seconds</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-8 offset-md-2 offset-lg-3 offset-0">
+                    <div class="subscribe-wrapper">
+                        <form class="subscription-form" method="POST" action="https://www.nayrathemes.com/demo/html/hantus/php/subscribe.php">
+                            <div class="subscribe-box">
+                                <input type="email" class="form-control" id="subscribe-input" name="subscribe-input" placeholder="Enter your email here" required>
+                                <button class="email-submit-btn" type="submit"><i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <footer id="footer-area">
+                        <div class="container">
+                            <ul class="social list">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                            <div class="copyright text-center">
+                                <p>Copyrights © 2018 All Rights Reserved, Powered by <a href="index-2.html">Hantus</a>.</p>
+                            </div>
+                        </div>
+                        <!-- <a href="#" class="scrollup"><i class="fas fa-arrow-up"></i></a> -->
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End: Coming Soon page
+    ============================= -->
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.shuffle.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.countdown.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="assets/js/custom.js"></script>
+    
+
+    <script>
+        // 11.0 countdown active code
+        $('[data-countdown]').each(function () {
+            var $this = $(this),
+                finalDate = $(this).data('countdown');
+            $this.countdown(finalDate, function (event) {
+                $(this).find(".days").html(event.strftime("%D"));
+                $(this).find(".hours").html(event.strftime("%H"));
+                $(this).find(".minutes").html(event.strftime("%M"));
+                $(this).find(".seconds").html(event.strftime("%S"));
+            });
+        });
+    </script>
+</body>

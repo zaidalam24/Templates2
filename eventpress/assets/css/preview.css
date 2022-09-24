@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900|Roboto:300,400,500,700,900');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f7fb;
+}
+
+.section-padding-top {
+    padding: 80px 0 80px;
+	background: #ffffff;
+}
+
+.section-padding {
+    padding: 100px 0 80px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ======================================
+    Intro 
+=========================================*/
+
+.intro {
+    height: 430px;
+    color: #fff;
+    background: #941502;
+}
+
+.intro_table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.intro_call {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro_content {
+    margin-top: -17px;
+}
+
+.intro_content ul {
+    margin-top: 30px;
+}
+
+.intro_content ul li {
+    display: inline-block;
+}
+
+.intro_content ul a {
+    border: 2px solid #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.intro_content ul a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    opacity: 1;
+    color: #f24259;
+    text-decoration: none;
+}
+
+.intro_content h1 {
+    font-size: 92px;
+    line-height: 92px;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .intro_content h2 { */
+    /* text-transform: uppercase; */
+/* } */
+
+/* ======================================
+    Demos 
+=========================================*/
+
+.demoes {}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.demo_single {
+    text-align: center;
+    margin: 15px 0;
+    margin-bottom: 40px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	padding: 0 0 20px;
+	background: #f5f7fb;
+}
+.demo_single:hover {
+	box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.demo_single figure figcaption h2 {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.demo_single figure figcaption h2 a {
+    color: #262c31;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.demo_single figure figcaption a {
+    color: #941502;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.demo_single img {
+    width: 100%;
+}
+
+.single-counter h1 {
+    color: #53DFBD;
+    font-size: 50px;
+}
+
+.facts-one .single-counter:after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 95px;
+    position: absolute;
+    right: -8px;
+    top: 4px;
+    width: 2px;
+}
+
+.horizontal-line div {
+    background: #941502 none repeat scroll 0 0;
+    height: 2px;
+    margin: 0 auto;
+    width: 77px;
+}
+
+.horizontal-line div.top {
+    margin-bottom: 3px;
+    width: 44px;
+}
+
+.coming-soon-inner {
+    background: -webkit-linear-gradient(left, #f24259 10%, #385573 90%);
+    background: linear-gradient(90deg, #f24259 10%, #385573 90%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    padding: 0 15px;
+    z-index: 1;
+}
+
+
+/* Buy Button */
+
+.buy-btn a {
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 4px;
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    background: #941502;
+}
+
+.buy-btn a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #f24259;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .7);
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .7);
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+}
+
+
+/* ======================================
+    Features 
+=========================================*/
+
+.single-feature {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    margin: 0 20px 40px;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.single-feature:hover {
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.single-feature .icon {
+    float: left;
+    margin-right: 15px;
+}
+
+/* ======================================
+    Footer 
+=========================================*/
+
+.footer_area {
+    background-color: #941502 ;
+    color: #fff ;
+    padding: 15px 0 1px;
+    text-transform: capitalize;
+}
+.footer_area p {
+    line-height: 37px;
+}
+.footer_area p a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.demo_img_lnk {
+    display: block;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Image Effects */
+
+.block-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: transform 10s ease-out;
+    -webkit-transition: -webkit-transform 10s ease-out;
+    transition: -webkit-transform 10s ease-out;
+    transition: transform 10s ease-out;
+    transition: transform 10s ease-out, -webkit-transform 10s ease-out;
+}
+
+.s-back-switch {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.demo_img_lnk:hover .block-img {
+    -webkit-transform: translateY(-90%);
+    transform: translateY(-90%);
+}
+
+.facts-one .single-counter.last-child:after {
+    background: no-repeat;
+}
+
+/* ======================================
+    Responsive 
+=========================================*/
+
+@media only screen and (max-width:991px) {
+    .intro_content h1 {
+        font-size: 60px;
+    }
+
+    .intro_content ul a {
+        margin-bottom: 15px;
+    }
+}
